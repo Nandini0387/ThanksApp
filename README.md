@@ -82,7 +82,7 @@ Use the default usetname nad password to login to the app.
 **username: nurse1**
 **password: password123**
 
-<img src="https://github.com/Nandini0387/ThanksApp/assets/137043974/0f90931d-997b-4be9-9474-c8dfa7ac2ad2" width="100" height="400">
+<img src="https://github.com/Nandini0387/ThanksApp/assets/137043974/0f90931d-997b-4be9-9474-c8dfa7ac2ad2" width="200" height="400">
 
 ![Screenshot 2024-06-07 105410](https://github.com/Nandini0387/ThanksApp/assets/137043974/0f90931d-997b-4be9-9474-c8dfa7ac2ad2)
 
