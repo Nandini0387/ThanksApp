@@ -85,11 +85,15 @@ Use the default usetname nad password to login to the app.
 
 <img src="https://github.com/Nandini0387/ThanksApp/assets/137043974/0f90931d-997b-4be9-9474-c8dfa7ac2ad2" width="180" height="400">
 
+
 <img src="https://github.com/Nandini0387/ThanksApp/assets/137043974/6539a4dc-730c-4cf4-b373-c4c3fa679d30" width="180" height="400">
+
 
 <img src="https://github.com/Nandini0387/ThanksApp/assets/137043974/15afa723-f2af-46d8-9ce7-3aa640f7ff4d" width="180" height="400">
 
+
 <img src="https://github.com/Nandini0387/ThanksApp/assets/137043974/f9d9684a-915d-4ce4-86b9-b13ffb047e20" width="180" height="400">
+
 
 <img src="https://github.com/Nandini0387/ThanksApp/assets/137043974/7c144775-4812-480b-be63-7c937ba47bf5" width="180" height="400">
 
