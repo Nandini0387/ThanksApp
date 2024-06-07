@@ -21,7 +21,7 @@ This Android application facilitates connections between blood donors and recipi
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/blood-donation-app.git
+    git clone https://github.com/Nandini0387/ThanksApp.git
     ```
 2. Open the project in Android Studio.
 3. Ensure you have the required dependencies and permissions in your `build.gradle` and `AndroidManifest.xml`.
@@ -50,9 +50,13 @@ Add the necessary permissions in your AndroidManifest.xml file:
 ### Project Structure
 
 **MainActivity.java:** Redirects to LoginActivity if not logged in.
+
 **LoginActivity.java:** Handles user login.
+
 **DonorActivity.java:** Handles donor information input and QR code generation.
+
 **ReceiverActivity.java:** Handles QR code scanning and sending thank you messages.
+
 **DatabaseHelper.java:** Manages SQLite database for storing login credentials.
 
 ### Implementation
@@ -78,7 +82,14 @@ Use the default usetname nad password to login to the app.
 **username: nurse1**
 **password: password123**
 
-![Screenshot 2024-06-07 105648](https://github.com/Nandini0387/ThanksApp/assets/137043974/6b2d154f-88b6-4bc5-902b-43d6a25cc252)
+![Screenshot 2024-06-07 105410](https://github.com/Nandini0387/ThanksApp/assets/137043974/0f90931d-997b-4be9-9474-c8dfa7ac2ad2)
 
+![Screenshot 2024-06-07 105450](https://github.com/Nandini0387/ThanksApp/assets/137043974/6539a4dc-730c-4cf4-b373-c4c3fa679d30)
+
+![Screenshot 2024-06-07 105508](https://github.com/Nandini0387/ThanksApp/assets/137043974/15afa723-f2af-46d8-9ce7-3aa640f7ff4d)
+
+![Screenshot 2024-06-07 105606](https://github.com/Nandini0387/ThanksApp/assets/137043974/f9d9684a-915d-4ce4-86b9-b13ffb047e20)
+
+![Screenshot 2024-06-07 105648](https://github.com/Nandini0387/ThanksApp/assets/137043974/7c144775-4812-480b-be63-7c937ba47bf5)
 
 
