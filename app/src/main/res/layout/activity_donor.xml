@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="    DONOR"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#E6291C"
+        android:textSize="30dp"
+        android:gravity="left|center"   />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="Donor Details"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:textColor="#E6291C"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/donor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#22F44336"
+            android:clipToOutline="true"
+            android:textColor="#E6291C"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="25dp"
+            android:hint="Name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/donor_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:background="#22F44336"
+            android:textColor="#E6291C"
+            android:clipToOutline="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ImageView
+        android:id="@+id/qr_code_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/generate_qr_button"
+            android:text="Generate QR Code"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:drawableStart="@drawable/button"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/download_button"
+            android:layout_width="200dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/button"
+            android:text="Download QR Code"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/img3"/>
+
+</LinearLayout>

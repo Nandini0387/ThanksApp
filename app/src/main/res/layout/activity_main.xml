@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    xmlns:aandroid="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="    ThankYou"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#E6291C"
+            android:textSize="30dp"
+            android:gravity="left|center"   />
+
+
+
+        <ImageButton
+            android:id="@+id/donor_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/donor"
+            android:background="#22F44336"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+
+        <ImageButton
+            android:id="@+id/receiver_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img"
+            android:background="#22F44336"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+</LinearLayout>
