@@ -77,7 +77,7 @@ Send a thank you message to the donor's mobile number.
 Manages SQLite database operations for storing and retrieving user credentials.
 
 ### App Screenshots
-Use the default usetname nad password to login to the app.
+Use the default username and password to login to the app.
 
 **username: nurse1**
 
